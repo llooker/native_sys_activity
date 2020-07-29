@@ -1,4 +1,4 @@
-connection: "looker__internal__analytics"
+#connection: "looker__internal__analytics"
 
 include: "*.view"
 include: "/Derived/*.view"
