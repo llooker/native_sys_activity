@@ -2,7 +2,6 @@ connection: "looker__internal__analytics"
 
 include: "*.view"
 include: "/Derived/*.view"
-include: "*.dashboard.lookml"
 
 datagroup: system__activity_default_datagroup {
   max_cache_age: "1 hour"
