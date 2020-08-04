@@ -1,7 +1,7 @@
 #connection: "looker__internal__analytics"
 
-include: "*.view"
-include: "/Derived/*.view"
+include: "./*.view"
+include: "./Derived/*.view"
 
 datagroup: system__activity_default_datagroup {
   max_cache_age: "1 hour"
